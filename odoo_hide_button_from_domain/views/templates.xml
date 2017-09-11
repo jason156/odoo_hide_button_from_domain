@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <template id="assets_backend" name="many2one_limit" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript"
+                        src="/odoo_hide_button_from_domain/static/src/js/taony_form_hide_button.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
